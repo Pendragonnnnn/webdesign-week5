@@ -1,0 +1,26 @@
+.item-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+
+.item{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .item-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1000px){
+    .item-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

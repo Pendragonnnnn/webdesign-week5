@@ -1,0 +1,43 @@
+.nav-bar {
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    padding: 15px;
+
+}
+
+.logo {
+    color: white;
+    align-self: center;
+}
+
+.navigation {
+    color: white;
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    align-items: center;
+    font-size: larger;
+    gap: 2em;
+}
+
+@media (max-width: 768px){
+    .navigation{
+        display: none;
+    }
+    .hamburger{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+    .hamburger span{
+        display: block;
+        background-color: white;
+        margin: 3px;
+        height: 0.25em;
+        width: 2em;
+    }
+}
+

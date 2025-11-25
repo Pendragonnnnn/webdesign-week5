@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.small {
+    background-color: red;
+    font-size: larger;
+    padding: 40px;
+}
+
+.big {
+    background-color: greenyellow;
+    font-size: xx-large;
+    padding: 80px;
+}
+
+
+@media (min-width: 792px) {
+    .small {
+        display: none;
+    }
+}
+
+@media (max-width: 791px) {
+    .big {
+        display: none;
+    }
+
+}
