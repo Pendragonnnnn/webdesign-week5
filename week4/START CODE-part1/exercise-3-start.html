@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 5px 5px 5px 5px;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+            gap: 20px;
+
+        }
+        .header {
+            display: flex;
+            height: 50px;
+            background-color: #1e90ff;
+            border-radius: 0.5rem;
+            box-shadow: 1px 5px 1px 1px #0077ea;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            flex-grow: 1;
+            gap: 20px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            background-color: #3cb371;
+            border-radius: 0.5rem;
+            flex-grow: 1;
+            gap: 10px;
+            padding: 10px 10px 10px 10px;
+            box-shadow: 1px 5px 1px 1px #2f8d59;
+        }
+
+        .sidebar {
+            background-color: #ff6347;
+            border-radius: 0.5rem;
+            width: 100px;
+            box-shadow: 1px 5px 1px 1px #e02200;
+        }
+
+        .footer {
+            background-color: #4169e1;
+            height: 50px;
+            border-radius: 0.5rem;
+            box-shadow: 1px 5px 1px 1px #1d44b8;
+
+        }
+
+        .row1 {
+            display: flex;
+            flex-direction: row;
+            padding: 10px 10px 10px 10px;
+            flex-grow: 1;
+            gap: 30px;
+        }
+
+        .item {
+            background-color: #2f8d59;
+            flex-grow: 1;
+            border-radius: 0.5rem;
+            box-shadow: 1px 5px 1px 1px #226741;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+        <section class="header">Header</section>
+        <section class="content">
+            <section class="main">Main
+                <section class="row1">
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                </section>
+                <section class="row1">
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                </section>
+                <section class="row1">
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                </section>
+                
+                
+
+            </section>
+            <section class="sidebar">Sidebar</section>
+
+        </section>
+        <section class="footer">Footer</section>
+    
+    
+</body>
+</html>
