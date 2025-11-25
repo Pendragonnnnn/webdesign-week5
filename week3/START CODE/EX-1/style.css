@@ -1,0 +1,38 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+    margin: 100px;
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+button {
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #104012;
+    color: white;
+    border-color: #000000;
+}
+.button2 {
+    background-color: #ff9500;
+    color: rgb(0, 0, 0);
+    border-color: #000000;
+}
+.button3 {
+    background-color: #66006d;
+    color: white;
+    border-color: #000000;
+}
